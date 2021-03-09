@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+	background: url('assets/IMG-1604.JPG') center no-repeat fixed;
+	background-size: cover;
+	font-size: 100%;
+	justify-content: center;
+}
+
+#canvas{
+	width: 100vh;
+	height: 100vh;
+	margin: auto;
+}
+
+#top-part {
+	height: 95%;
+	width: 100%;
+	background-color: re;
+}
+
+#bottom-part {
+	height: 5%;
+	width: 20%;
+	background-color: grey;
+	opacity: 0.5;
+	text-align: center;
+	margin: auto;
+	border-radius: 7px;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+
+#slogan {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-family: 'Julius Sans One', sans-serif;
+	padding: 180px 100px 0px;
+}
+
+#author {
+	font-style: italic;
+}
+
+/*.hide {
+  display: none;
+}*/
+
+/*.myDIV:hover + .hide {
+  display: block;
+  color: red;	
+}*/
+
+img {
+	height: 20vh;
+  display: flex;
+	margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+	border-radius: 15%;
+}
+
+.appear1:hover{
+	transform: scale(1.1);
+	transition: all 0.7s ease-in-out;
+}
+
+.appear2:hover{
+	transform: scale(1.5);
+	transition: all 1.5s ease-in-out;
+}
+
+.links {
+	filter: grayscale(70%);
+}
+
+ul {
+  list-style-type: none;
+	
+}
+
+li {
+  display: inline;
+}

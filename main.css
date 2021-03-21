@@ -13,24 +13,40 @@ body {
 }
 
 #canvas{
-	width: 100vh;
+	width: 500px;
 	height: 100vh;
 	margin: auto;
+	position: relative;
+	/*background-color: yellow;*/
 }
 
-#top-part {
-	height: 95%;
+#box1 {
+	height: 250px;
 	width: 100%;
-	background-color: re;
+	margin: auto;
+	position:relative;
+	top: 5px;
+	/*background-color: red;*/
 }
 
-#bottom-part {
+#box2 {
+	/*background-color: green;*/
+	width: 100%;
+	position: relative;
+	top: 0px;
+}
+
+#box3 {
 	height: 5%;
 	width: 20%;
-	background-color: grey;
+	margin: auto;
+	background-color: grey;	
+	position: relative;
+	bottom: -200px;
+	/*left: 200px;*/
+	/*left: 50vh;*/
 	opacity: 0.5;
 	text-align: center;
-	margin: auto;
 	border-radius: 7px;
 }
 

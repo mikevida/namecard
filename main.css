@@ -5,15 +5,65 @@
   font-size: 100%;
 }
 
+/* ==== CSS RESET ==== */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 body {
 	background: url('Assets/IMG-1604.JPG') center no-repeat fixed;
 	background-size: cover;
-	font-size: 100%;
+	font-size: 1rem;
 	justify-content: center;
 }
 
+/* ==== LAYOUT ==== */
 #canvas{
-	width: 500px;
+	width: 40vw;
 	height: 100vh;
 	margin: auto;
 	position: relative;
@@ -21,7 +71,7 @@ body {
 }
 
 #box1 {
-	height: 250px;
+	height: 35%;
 	width: 100%;
 	margin: auto;
 	position:relative;
@@ -33,7 +83,7 @@ body {
 	/*background-color: green;*/
 	width: 100%;
 	position: relative;
-	top: 0px;
+	top: 0vh;
 }
 
 #box3 {
@@ -42,13 +92,15 @@ body {
 	margin: auto;
 	background-color: grey;	
 	position: relative;
-	bottom: -200px;
+	bottom: -30vh;
 	/*left: 200px;*/
 	/*left: 50vh;*/
 	opacity: 0.5;
 	text-align: center;
 	border-radius: 7px;
 }
+
+/* ==== STYLES ==== */
 
 p {
 	text-align: center;
@@ -84,6 +136,7 @@ img {
 	border-radius: 15%;
 }
 
+/* ==== ANIMATION ==== */
 .appear1:hover{
 	transform: scale(1.1);
 	transition: all 0.7s ease-in-out;
@@ -94,6 +147,7 @@ img {
 	transition: all 1.5s ease-in-out;
 }
 
+/* ==== LINKS ==== */
 .links {
 	filter: grayscale(70%);
 }
